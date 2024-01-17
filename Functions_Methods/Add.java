@@ -1,4 +1,4 @@
-package JavaLearning.Functions;
+package JavaLearning.Functions_Methods;
 
 import java.util.Scanner;
 
