@@ -90,10 +90,3 @@ arr[0].length = 3       // total number of columns in 0th row
 arr[1].length = 2       // total number of columns in 1st row
 arr[2].length = 4       // total number of columns in 2nd row
 
-
-0 1 2 3
-1 2 3 4   0
-5 6 7 8   1
-9 1 2 3   2
-5 6 1 6   3
-
