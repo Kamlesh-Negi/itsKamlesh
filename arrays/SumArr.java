@@ -1,4 +1,4 @@
-package arrays;
+package JavaLearning.arrays;
 
 public class SumArr {
     public static void main(String[] args) {

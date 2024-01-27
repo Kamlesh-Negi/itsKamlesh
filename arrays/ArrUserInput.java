@@ -1,5 +1,6 @@
-package arrays;
+package JavaLearning.arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrUserInput {
@@ -14,9 +15,18 @@ public class ArrUserInput {
             arr[i] = sc.nextInt();
         }
         System.out.print("Array elements are: ");
-        for(int i = 0; i<n; i++)
+/*        for(int i = 0; i<n; i++)
         {
             System.out.print(arr[i]+" ");
-        }
+        }*/
+
+        // enhanced for-loop
+
+       /* for(int num : arr){
+            System.out.print(num+" " );
+        }*/
+
+        System.out.println(Arrays.toString(arr));     // print the array in []
+
     }
 }
