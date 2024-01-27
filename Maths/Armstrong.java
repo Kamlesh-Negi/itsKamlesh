@@ -1,4 +1,4 @@
-package JavaLearning;
+package JavaLearning.Maths;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class Armstrong {
             if (result == input){
                 System.out.println("Armstrong");
             }
-            else System.out.println("Armstrong" );
+            else System.out.println("Not an Armstrong" );
     }
 
 }

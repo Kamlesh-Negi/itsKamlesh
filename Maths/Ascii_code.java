@@ -1,4 +1,4 @@
-package JavaLearning;
+package JavaLearning.Maths;
 
 public class Ascii_code {
     public static void main(String[] args) {
