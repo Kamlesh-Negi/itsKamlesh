@@ -29,12 +29,15 @@ public class DisappearedNumbers {
                 i++;
             }
         }
+            /* find the missing number:
+                 if range is [0,n] ==> every element will be at index = value
+                 if range is [1,n] ==> every element will be at index = value - 1
+            */
 
-        // find the missing number
        List<Integer> ans = new ArrayList<>();
        for (int index = 0; index < nums.length; index++) {
            if(nums[index] != index+1){
-               ans.add(index + 1);
+               ans.add(index + 1);                      // missing value is = index + 1
            }
        }
        return ans;
